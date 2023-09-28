@@ -13,7 +13,7 @@ function Navbar() {
             <h3>Logo</h3>
             <nav ref={navRef}>
               <a href='/'>Home</a>
-              <a href='/Login'>Login/Sign Up</a>
+              
               <button className="nav-btn nav-close-btn" onClick={showNavBar}>
                 <FaTimes />
             </button>
